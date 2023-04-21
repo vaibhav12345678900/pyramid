@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <script>
+        var a,b,c;
+        a=Number(prompt("Enter 1st angle"));
+        b=Number(prompt("Enter 2nd angle"));
+        c=Number(prompt("Enter 3rd angle"));
+        var triangle=a+b+c===180?"It is a valid triangle":"It is an invalid triangle";
+        document.write(triangle);
+
+        document.write("<hr>");
+
+        var num=Number(prompt("Enter a number"));
+        if(num<0){
+            document.write("absolute value is: "+(-num));
+        }else{
+            document.write("absolute value is: "+num);
+        }
+        
+    </script>
+</body>
+</html>
